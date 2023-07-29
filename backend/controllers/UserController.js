@@ -48,7 +48,7 @@ export const getUsers = async (req, res) => {
         offset: offset,
         limit: limit,
         order: [
-            'id', 'DESC'
+            ['id', 'DESC']
         ]
     })
     res.json({
